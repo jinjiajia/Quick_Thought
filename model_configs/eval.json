@@ -1,0 +1,56 @@
+
+{
+	"encoder": "gru",
+	"encoder_dim": 1200,
+	"bidir": true,
+	"case_sensitive": true,
+	"checkpoint_path": "BS400-W620-S1200-case-bidir/train",
+	"vocab_configs": [
+	{
+		"mode": "expand",
+		"name": "word_embedding",
+		"cap": false,
+		"dim": 620,
+		"size": 933761,
+		"vocab_file": "BS400-W620-S1200-case-bidir/exp_vocab/word_embedding",
+		"embs_file": "BS400-W620-S1200-case-bidir/exp_vocab/word_embedding"
+	}
+	]
+}
+
+//{
+//	"encoder": "gru",
+//	"encoder_dim": 1200,
+//	"bidir": true,
+//	"case_sensitive": true,
+//	"checkpoint_path": "BS400-W620-S1200-case-bidir/train",
+//	"vocab_configs": [
+//	{
+//		"mode": "expand",
+//		"name": "word_embedding",
+//		"cap": false,
+//		"dim": 620,
+//		"size": 933761,
+//		"vocab_file": "BS400-W620-S1200-case-bidir/exp_vocab/word_embedding",
+//		"embs_file": "BS400-W620-S1200-case-bidir/exp_vocab/word_embedding"
+//	}
+//	]
+//}
+//{
+//	"encoder": "gru",
+//	"encoder_dim": 1200,
+//	"bidir": true,
+//	"case_sensitive": true,
+//	"checkpoint_path": "BS400-W620-S1200-case-bidir/train",
+//	"vocab_configs": [
+//	{
+//		"mode": "trained",
+//		"name": "word_embedding",
+//		"cap": false,
+//		"dim": 620,
+//		"size": 50001,
+//		"vocab_file": "dictionaries/BC/dictionary.txt",
+//		"embs_file": ""
+//	}
+//	]
+//}
